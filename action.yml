@@ -1,4 +1,4 @@
-name: "Prettier Bot"
+name: "Prettier Commit Bot"
 description: "Auto run 'prettier --write .' for your repo."
 author: "RavelloH"
 branding:
