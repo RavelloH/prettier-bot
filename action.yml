@@ -1,0 +1,14 @@
+name: "Prettier Bot"
+description: "Auto run 'prettier --write .' for your repo."
+author: "RavelloH"
+branding:
+  icon: "align-left"
+  color: "blue"
+runs:
+  using: "composite"
+  steps:
+    - name: prettier
+      run: |
+        npx prettier --write .
+      shell: bash
+        
